@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Curso/Demo ExtJs</title>
+	<meta charset="utf-8" />
+
+    <link rel="icon" type="image/png" href="resources/images/zoom.png" />
+
+    <style>
+        .mx-color-red {
+            color: #ff0000;
+        }
+    </style>
+
+    <!--
+        *
+        * Elige un "skin/piel" (esto no es necesario)
+        * =========================================================
+        * 1. ext-all         => Default
+        * 2. ext-all-gray    => El que yo uso
+        * 3. ext-all-neptune => Tema con un look & feel mas moderno
+        * 4.
+        *
+    -->
+    <link rel="stylesheet" type="text/css" href="js/extjs42/resources/css/ext-all-gray.css" />
+    <script type="text/javascript" src="js/extjs42/ext-theme-gray.js"></script>
+
+
+    <!--
+        *
+        * Carga el framework ExtJs (4.2)
+        *
+     -->
+    <script type="text/javascript" src="js/extjs42/ext-all-debug-w-comments.js"></script>
+
+
+    <!-- Importar el lenguaje español (esto tampoco es necesario) -->
+    <script type="text/javascript" src="js/extjs42/locale/ext-lang-es.js"></script>
+
+
+    <!--
+        * 
+        * Con la función onReady sabes que ExtJs ya esta cargado
+        * 
+    -->
+    <script type="text/javascript">
+        Ext.onReady(function () {
+            console.log("ExtJS esta funcionando!");
+            Ext.Msg.alert('Hola Mundo', 'ExtJS esta funcionando.');
+        });
+    </script>
+
+
+</head>
+<body>
+    <div id="main"></div>
+</body>
+</html>
