@@ -5,7 +5,7 @@
     <title>Curso/Demo ExtJs</title>
 	<meta charset="utf-8" />
 
-    <link rel="icon" type="image/png" href="resources/images/zoom.png" />
+    <link rel="icon" type="image/png" href="resources/images/32x32/android.png" />
 
     <style>
         .mx-color-red {
@@ -36,19 +36,18 @@
 
 
     <!-- Importar el lenguaje español (esto tampoco es necesario) -->
-    <script type="text/javascript" src="js/extjs42/locale/ext-lang-es.js"></script>
+    <script type="text/javascript" 
+            src="js/extjs42/locale/ext-lang-es.js">
+    </script>
 
 
     <!--
         * 
-        * Con la función onReady sabes que ExtJs ya esta cargado
+        * Aqui cargo el JS que quiero ejecutar (ver, revisar, probar)
         * 
     -->
-    <script type="text/javascript">
-        Ext.onReady(function () {
-            console.log("ExtJS esta funcionando!");
-            Ext.Msg.alert('Hola Mundo', 'ExtJS esta funcionando.');
-        });
+    <script type="text/javascript"
+            src="js/bases/a05_this.js">
     </script>
 
 
