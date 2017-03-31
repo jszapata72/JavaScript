@@ -75,6 +75,13 @@
     <Content Include="js\bases\a06_closures.js" />
     <Content Include="js\fwbases\b02_create.js" />
     <Content Include="js\fwbases\b03_alias.js" />
+    <Content Include="js\fwbases\b04_require.js" />
+    <Content Include="js\fwctrl\c01_panel.js" />
+    <Content Include="js\fwctrl\c02_window.js" />
+    <Content Include="js\fwctrl\c03_msg.js" />
+    <Content Include="js\fwctrl\c04_tabs.js" />
+    <Content Include="js\fwctrl\c05_forms.js" />
+    <Content Include="js\fwctrl\c06_forms_eventos.js" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
