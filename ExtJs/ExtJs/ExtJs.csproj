@@ -66,12 +66,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="js\fwbases\b01_define.js" />
     <Content Include="js\bases\a01_hola_mundo.js" />
     <Content Include="js\bases\a02_declara_objetos.js" />
     <Content Include="js\bases\a03_referencias.js" />
     <Content Include="js\bases\a05_this.js" />
     <Content Include="js\bases\a04_scope.js" />
     <Content Include="js\bases\a06_closures.js" />
+    <Content Include="js\fwbases\b02_create.js" />
+    <Content Include="js\fwbases\b03_alias.js" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
