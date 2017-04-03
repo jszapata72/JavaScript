@@ -1,0 +1,16 @@
+﻿{
+  "data": [
+    {
+      "Nombre": "Juan Antonio",
+      "Edad": 34
+    },
+    {
+      "Nombre": "Sandra Mascorro",
+      "Edad": 28
+    },
+    {
+      "Nombre": "Edgar Orlando",
+      "Edad": 16
+    }
+  ]
+}

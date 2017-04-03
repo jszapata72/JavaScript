@@ -82,7 +82,10 @@
     <Content Include="js\fwctrl\c04_tabs.js" />
     <Content Include="js\fwctrl\c05_forms.js" />
     <Content Include="js\fwctrl\c06_forms_eventos.js" />
+    <Content Include="js\fwctrl\c07_eventos.js" />
+    <Content Include="js\fwctrl\c08_store.js" />
     <Content Include="packages.config" />
+    <Content Include="resources\json\ejemplo_nombres.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
