@@ -84,6 +84,7 @@
     <Content Include="js\fwctrl\c06_forms_eventos.js" />
     <Content Include="js\fwctrl\c07_eventos.js" />
     <Content Include="js\fwctrl\c08_store.js" />
+    <Content Include="js\fwctrl\c09_store_json.js" />
     <Content Include="packages.config" />
     <Content Include="resources\json\ejemplo_nombres.json" />
     <None Include="Web.Debug.config">
@@ -101,7 +102,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="php\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
