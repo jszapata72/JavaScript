@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="servidor_c0.aspx.cs" Inherits="ExtJs.asp.servidor" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="servidor_d02.aspx.cs" Inherits="ExtJs.asp.servidor_d02" %>
 
 <!DOCTYPE html>
 
@@ -10,6 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
+    
     </div>
     </form>
 </body>

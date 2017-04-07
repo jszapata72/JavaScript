@@ -66,7 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="asp\servidor_c0.aspx" />
+    <Content Include="asp\servidor_c10.aspx" />
+    <Content Include="asp\servidor_d02.aspx" />
+    <Content Include="js\fwajax\d01_ajax_json.js" />
+    <Content Include="js\fwajax\d02_ajax_asp.js" />
     <Content Include="js\fwbases\b01_define.js" />
     <Content Include="js\bases\a01_hola_mundo.js" />
     <Content Include="js\bases\a02_declara_objetos.js" />
@@ -111,12 +114,19 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="asp\servidor_c0.aspx.cs">
-      <DependentUpon>servidor_c0.aspx</DependentUpon>
+    <Compile Include="asp\servidor_c10.aspx.cs">
+      <DependentUpon>servidor_c10.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="asp\servidor_c0.aspx.designer.cs">
-      <DependentUpon>servidor_c0.aspx</DependentUpon>
+    <Compile Include="asp\servidor_c10.aspx.designer.cs">
+      <DependentUpon>servidor_c10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="asp\servidor_d02.aspx.cs">
+      <DependentUpon>servidor_d02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="asp\servidor_d02.aspx.designer.cs">
+      <DependentUpon>servidor_d02.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

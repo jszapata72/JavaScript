@@ -18,7 +18,7 @@ Ext.onReady(function () {
 
         proxy: {
             type: 'ajax',
-            url: './asp/servidor_c0.aspx',
+            url: './asp/servidor_c10.aspx',
 
             reader: {
                 type: 'json',
