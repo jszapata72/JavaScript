@@ -9,7 +9,7 @@ namespace ExtJs.asp
 {
     public partial class servidor_d02 : Page
     {
-        protected void Page_Load(object sender, EventArgs e)
+        protected void Page_LoadComplete(object sender, EventArgs e)
         {
             /*
              * Con el objeto Request.Params podemos tener acceso
@@ -18,7 +18,7 @@ namespace ExtJs.asp
              * Esto teniendo problemas para que se  muestren los
              * parametros. No se porque a veces si se muestran y
              * a veces no, lo que me ha dado resultado es volver
-             * a compilzar el proyecto y/o limpiarlo.
+             * a compilar el proyecto y/o limpiarlo.
              * 
              */
             var p1 = Request.Params["par1"];
@@ -41,11 +41,12 @@ namespace ExtJs.asp
             ";
             //
             // Le agrego uno de los parametros, para comprobar que
-            // realmente si estoy recibiendolos...
+            // realmente si estoy recibiendolos.
             //
             json = json.Replace("<<aqui_p>>", p1.ToString());
 
-            // Mando el texto
+
+            // Mando la respuesta
             Response.Clear();
             Response.ContentType = "text/plain";
             Response.Write(json);

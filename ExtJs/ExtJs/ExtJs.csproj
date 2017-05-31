@@ -48,6 +48,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -68,8 +72,12 @@
   <ItemGroup>
     <Content Include="asp\servidor_c10.aspx" />
     <Content Include="asp\servidor_d02.aspx" />
+    <Content Include="asp\servidor_d03.aspx" />
+    <Content Include="asp\servidor_d04.aspx" />
     <Content Include="js\fwajax\d01_ajax_json.js" />
     <Content Include="js\fwajax\d02_ajax_asp.js" />
+    <Content Include="js\fwajax\d03_ajax_newtonsoft.js" />
+    <Content Include="js\fwajax\d04_ajax_form.js" />
     <Content Include="js\fwbases\b01_define.js" />
     <Content Include="js\bases\a01_hola_mundo.js" />
     <Content Include="js\bases\a02_declara_objetos.js" />
@@ -127,6 +135,20 @@
     </Compile>
     <Compile Include="asp\servidor_d02.aspx.designer.cs">
       <DependentUpon>servidor_d02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="asp\servidor_d03.aspx.cs">
+      <DependentUpon>servidor_d03.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="asp\servidor_d03.aspx.designer.cs">
+      <DependentUpon>servidor_d03.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="asp\servidor_d04.aspx.cs">
+      <DependentUpon>servidor_d04.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="asp\servidor_d04.aspx.designer.cs">
+      <DependentUpon>servidor_d04.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
